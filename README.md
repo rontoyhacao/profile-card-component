@@ -1,3 +1,4 @@
+i decided to test my skills in front-end development with html and css with this simple front-end mentor challenge: profile card component and this is what i came up with.
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
