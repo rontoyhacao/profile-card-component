@@ -1,0 +1,62 @@
+.container {
+    background: $card-color;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 0 60px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: $font-color-secondary;
+    .banner {
+        height: 140px;
+        background: url(/assets/images/bg-pattern-card.svg);
+    }
+    .profile-image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 80%);
+        img {
+            width: 100%;
+            border-radius: 50%;
+            border: 5px solid $card-color;
+        }
+    }
+    .profile-info {
+        padding: 80px 0 25px;
+        border-bottom: 1px solid hsl(0, 0%, 90%);
+        border-width: 100%;
+        .name {
+            font-weight: 700;
+            color: $font-color;
+            font-size: 18px;
+            margin-bottom: 10px;
+            .age {
+                font-weight: 400;
+                color: hsl(227, 10%, 46%);
+                margin-left: 10px;
+            }
+        }
+        .location {
+            font-size: 14px;
+        }
+    }
+    .profile-stats {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+        margin: 25px 0;
+        p {
+            font-size: 12px;
+            letter-spacing: 1px;
+            span {
+                display: block;
+                font-weight: 700;
+                color: $font-color;
+                font-size: 18px;
+                letter-spacing: normal;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
