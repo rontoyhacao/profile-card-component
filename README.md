@@ -1,4 +1,4 @@
-i decided to test my front-end skills with this simple front-end mentor challenge: profile card component.
+after creating some simple card layout projects i decided to test my skills through this simple front-end mentor challenge: profile card component.
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
